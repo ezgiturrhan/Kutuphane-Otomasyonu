@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6dad42ea77284645a3dae3796d33f073" Name="Diagram1" >
+        <EntityTypeShape EntityType="u0045506_db1E2Model.Kitap" Width="1.5" PointX="0.75" PointY="5.375" />
+        <EntityTypeShape EntityType="u0045506_db1E2Model.Kullanici" Width="1.5" PointX="0.75" PointY="0.875" />
+        <EntityTypeShape EntityType="u0045506_db1E2Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="u0045506_db1E2Model.AlinanKitaplarr" Width="1.5" PointX="3" PointY="1.375" />
+        <AssociationConnector Association="u0045506_db1E2Model.FK_AlinanKitaplar_Kitap" />
+        <AssociationConnector Association="u0045506_db1E2Model.FK_AlinanKitaplar_Kullanici" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
